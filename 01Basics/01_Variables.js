@@ -1,11 +1,11 @@
 // Variables in JS var, let and const
 // var is globally scoped while let and const are blocked scoped
-// var a = 10
-// {
-//     var a = 100
-//     console.log("inside block: ", a)
-// }
-// console.log("outside scoped: ", a)
+var a = 10
+{
+    var a = 100
+    console.log("inside block: ", a)
+}
+console.log("outside scoped: ", a)
 // In above exampl the value of "a" is changed globally
 // As var is global scope data type
 
