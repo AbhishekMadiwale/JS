@@ -26,3 +26,16 @@ console.log("Dynamic change variable example: ", firstName);
 address="India";
 console.log("Dynamic address: ", address);
 console.log(typeof address);
+
+// Let data type can be update like
+let a = 100
+a = 1000;
+console.log(a)
+
+// const data type can be update in future also in const we need to give an initial value
+const phoneNumber = 8975490978
+console.log(phoneNumber)
+phoneNumber=1212121212 //here it will through an type-error 
+
+// let and const are blocked scoped
+// var is functioned scoped
